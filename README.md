@@ -4,11 +4,11 @@
 
 [Ctarron discord](https://discord.gg/yhgfxbJs) server for feedback/doubts.
 
-Also on [Minecraft Maps]()
+Also on [Minecraft Maps](https://www.minecraftmaps.com/52202-kuron-flux)
 
-Also on [Planet Minecraft]()
+Also on [Planet Minecraft](https://www.planetminecraft.com/project/kuron-flux/)
 
-Also on [MapVerse]()
+Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 
 ## Overview
 
