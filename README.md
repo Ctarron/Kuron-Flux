@@ -10,15 +10,6 @@ Also on [Planet Minecraft](https://www.planetminecraft.com/project/kuron-flux/)
 
 Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 
-## Overview
-
-
-## Details
-
-
-## Downloads
-
-## Multiplayer Setup
 
 ## Available Translations
 
