@@ -1,0 +1,1 @@
+$summon item_display ~ ~ ~ {Tags:["air_bubble","size_$(size)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(size).1f,$(size).1f,$(size).1f]},item:{id:"minecraft:ice",count:1,components:{"minecraft:item_model":"kuron_flux:air_bubble"}}}

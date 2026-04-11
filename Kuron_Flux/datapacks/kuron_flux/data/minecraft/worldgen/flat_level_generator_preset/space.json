@@ -1,0 +1,14 @@
+{
+    "display": "minecraft:structure_void",
+    "settings": {
+      "biome": "kuron_flux:deep_space",
+      "lakes": false,
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }

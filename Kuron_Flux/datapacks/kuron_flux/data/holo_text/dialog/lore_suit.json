@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "dialog.lore.suit",
+        "bold": true
+      },
+      "\n\n\n",
+      {
+        "translate": "dialog.lore.suit.1",
+        "bold": false
+      },
+      "\n\n",
+      {
+        "translate": "dialog.lore.suit.2",
+        "with": [
+          {
+            "translate": "dialog.lore.caution",
+            "color": "red"
+          }
+        ],
+        "bold": false
+      },
+      "\n\n",
+      {
+        "translate": "dialog.lore.suit.3",
+        "bold": false
+      }
+    ],
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

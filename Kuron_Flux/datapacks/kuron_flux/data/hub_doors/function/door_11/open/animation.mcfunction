@@ -1,0 +1,3 @@
+execute if score @s animation matches 70 at @s positioned ~ ~2.5 ~ as @e[type=item_display,tag=hub_door_opening,distance=..0.01] run data merge entity @s[tag=hub_door_trigger] {start_interpolation:59,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}
+execute if score @s animation matches 90 at @s positioned ~ ~2.5 ~ as @e[type=item_display,tag=hub_door_opening,distance=..0.01] run function hub_doors:door_11/open/selected_90
+execute if score @s animation matches 90 run scoreboard players reset @s animation

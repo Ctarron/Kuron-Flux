@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:notice",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.lobby_settings.1",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "dialog.lobby_settings.2"
+        },
+        "\n",
+        {
+          "translate": "options.renderDistance"
+        },
+        "\n",
+        {
+          "translate": "options.simulationDistance"
+        },
+        "\n",
+        {
+          "translate": "dialog.lobby_settings.render"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "options.entityDistanceScaling"
+        },
+        "\n",
+        {
+          "translate": "dialog.lobby_settings.entitydistance"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "options.improvedTransparency"
+        },
+        "\n",
+        {
+          "translate": "dialog.lobby_settings.transparency",
+          "underlined": true
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "options.darknessEffectScale"
+        },
+        "\n",
+        {
+          "translate": "dialog.lobby_settings.darkness"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "options.sounds"
+        },
+        "\n",
+        {
+          "translate": "dialog.lobby_settings.music"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "title": ""
+}

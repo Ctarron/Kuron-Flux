@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "dialog.speedrun_submit",
+        "bold": true
+      },
+      "\n\n",
+      {
+        "translate": "dialog.speedrun_submit.1",
+        "bold": false
+      },
+      "\n\n",
+      {
+        "translate": "dialog.speedrun_submit.link",
+        "color": "aqua",
+        "underlined": true,
+        "click_event": {
+          "action": "open_url",
+          "url": "https://www.speedrun.com/Kuron_Flux"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "dialog.speedrun_submit.link.hover"
+          }
+        }
+      }
+    ]
+  },
+  "inputs": [],
+  "title": ""
+}

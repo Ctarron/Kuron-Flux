@@ -1,0 +1,115 @@
+{
+  "description": {
+    "translate": "enchantment.kuron_flux.space_movement"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "id": "kuron_flux:enchantment.space_movement",
+              "attribute": "minecraft:jump_strength",
+              "amount": 3.166666668,
+              "operation": "add_multiplied_base"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {}
+                }
+              }
+            },
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:enchantment_active_check",
+                      "active": true
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "flags": {
+                          "is_flying": false
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:any_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "movement_affected_by": {
+                              "block": {
+                                "blocks": "minecraft:slime_block"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:enchantment_active_check",
+                      "active": false
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "movement_affected_by": {
+                          "block": {
+                            "blocks": "minecraft:slime_block"
+                          }
+                        },
+                        "flags": {
+                          "is_flying": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

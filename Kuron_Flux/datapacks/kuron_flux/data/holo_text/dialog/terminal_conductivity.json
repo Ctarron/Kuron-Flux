@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:notice",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "dialog.terminal.conductivity",
+          "with": [
+            {
+              "translate": "dialog.lore.impact",
+              "color": "red"
+            },
+            {
+              "translate": "dialog.lore.caution",
+              "color": "red"
+            }
+          ],
+          "color": "white"
+        },
+        "\n",
+        "\n",
+        {
+          "sprite": "minecraft:block/copper_block"
+        },
+        {
+          "sprite": "minecraft:block/exposed_copper"
+        },
+        {
+          "sprite": "minecraft:block/weathered_copper"
+        },
+        {
+          "sprite": "minecraft:block/oxidized_copper"
+        },
+        {
+          "sprite": "minecraft:block/yellow_stained_glass"
+        },
+        {
+          "sprite": "minecraft:block/polished_deepslate"
+        }
+      ],
+      "width": 400
+    }
+  ],
+  "inputs": [],
+  "title": ""
+}

@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"description": "Datapack for Kuron Flux",
+		"max_format": [101,1],
+		"min_format": [101,1]
+	},
+	"filter": {
+	  "block": [
+		{
+		  "namespace": "minecraft",
+		  "path": "advancement"
+		}
+	  ]
+	}
+}

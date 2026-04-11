@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Ctarron"
+        }
+      }
+    },
+    "title": {
+      "translate": "credits_and_attribution.button.credits"
+    },
+    "description": {
+      "translate": "advancements.area.credits.title",
+      "fallback": "By Ctarron",
+      "click_event": {
+        "action": "open_url",
+        "url": "https://es.namemc.com/profile/Ctarron.1"
+      }
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "goal",
+    "hidden": false
+  },
+  "parent": "area:root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

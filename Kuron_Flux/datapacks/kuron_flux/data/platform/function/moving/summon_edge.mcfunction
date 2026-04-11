@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["moving_platform_edge"]}

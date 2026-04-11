@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:notice",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.lobby_rp.1",
+        "fallback": "To play this map, a resource pack is required.\n"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:slime_block"
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.lobby_rp.2",
+        "fallback": "\nIf the slime block above was green, please make sure to install the resource pack from the following link.\nIf it was blue, make sure to change the game language to one that is supported."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.lobby_rp.link",
+        "fallback": "Resource pack",
+        "color": "aqua",
+        "underlined": true,
+        "click_event": {
+          "action": "open_url",
+          "url": "https://github.com/Ctarron/Kuron-Flux/releases/latest/download/Kuron_Flux_RP.zip"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "dialog.lobby_rp.link.hover",
+            "fallback": "Download latest version"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.lobby_rp.3",
+        "fallback": "\nMake sure you don't have any other resource packs enabled.",
+        "color": "white",
+        "underlined": false
+      }
+    }
+  ],
+  "inputs": [],
+  "title": ""
+}

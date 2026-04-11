@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=bubble_platform] at @s run function bubbles:load_selected

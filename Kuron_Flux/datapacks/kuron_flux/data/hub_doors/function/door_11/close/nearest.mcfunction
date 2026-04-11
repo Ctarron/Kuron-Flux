@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=hub_door_11] at @s positioned ~ ~2.5 ~ as @e[type=item_display,distance=..0.01] run function hub_doors:door_11/close/selected

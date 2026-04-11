@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.hub.asteroid",
+      "with": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nCurabitur consectetur rhoncus eros, eget pharetra eros dignissim nec.\n\nPellentesque elementum urna neque, vel semper ligula ullamcorper in.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Vestibulum sit amet enim non tellus molestie laoreet quis nec neque.\n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n\nPhasellus eleifend sollicitudin metus nec ultrices.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nAliquam interdum tristique lobortis.\nNunc vitae libero vitae magna congue auctor.\n\nProin mollis volutpat est sit amet efficitur. Suspendisse potenti.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nQuisque nibh mi, convallis eu aliquam quis, ultrices eget nisi.\n\nPhasellus eu tincidunt arcu, id scelerisque mauris.\n\nInterdum et malesuada fames ac ante ipsum primis in faucibus.",
+          "obfuscated": true,
+          "color": "gray"
+        }
+      ]
+    }
+  },
+  "inputs": [],
+  "title": ""
+}

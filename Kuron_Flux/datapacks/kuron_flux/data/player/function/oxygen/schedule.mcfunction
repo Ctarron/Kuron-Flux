@@ -1,0 +1,1 @@
+execute as @a[tag=breathing_gas] run function player:oxygen/tick

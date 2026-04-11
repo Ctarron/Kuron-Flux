@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:empty",
+  "pools": [],
+  "random_sequence": "minecraft:entities/shulker"
+}

@@ -1,0 +1,1 @@
+execute as @n[type=item_display,tag=on_off_block] run function on_off:block/delete_selected

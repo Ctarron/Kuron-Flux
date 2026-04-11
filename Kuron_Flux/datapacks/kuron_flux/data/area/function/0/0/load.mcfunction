@@ -1,0 +1,9 @@
+# execute positioned 0 -44 0 run function checkpoint:summon {variant:0,direction:west,charged_function:"area:0/0/checkpoint"}
+execute positioned 0 -44 0 as @n[type=marker,tag=checkpoint,distance=..0.01] run function checkpoint:load/selected
+setworldspawn 36 -41 0 90 0
+summon mannequin 35 -42 -6 {Silent:1b,Invulnerable:1b,Rotation:[90F,0F],hide_description:true,Tags:["dynamic"],profile:"Ctarron"}
+summon minecraft:text_display 35.0 -42.375 -5.5 {alignment: "center", Tags:["dynamic"],background: 0, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {"color":"dark_gray","text":"Ctarron\n\n\n\n\n\n\n\n\n\n\n\nMapmaker"}, transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.8124999f, 0.8125f, 0.8124999f], translation: [0.0f, 0.0f, 0.0f]}}
+summon minecraft:text_display 35.5 -42.875 -5.5 {alignment: "center", Tags:["dynamic"],background: 0, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {color: "dark_gray", text: "224"}, transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.8124999f, 0.8125f, 0.8124999f], translation: [0.0f, 0.0f, 0.0f]}}
+data modify storage kuron_flux:arguments aux.leader set from entity @a[team=leader,limit=1] equipment.head.components."minecraft:profile".name
+function area:0/0/summon_player_kuron with storage kuron_flux:arguments aux
+summon minecraft:text_display 35.5 -42.875 6.5 {alignment: "center", Tags:["dynamic"],background: 0, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {color: "dark_gray", text: "1"}, transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.8124999f, 0.8125f, 0.8124999f], translation: [0.0f, 0.0f, 0.0f]}}

@@ -1,0 +1,2 @@
+execute positioned -227.5 -37 -277.5 as @n[type=marker,tag=checkpoint,distance=..0.01] run function checkpoint:load/unload_selected
+execute positioned -217 -36 -282 run kill @e[tag=holo_text,distance=..1]

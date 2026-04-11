@@ -1,0 +1,2 @@
+$execute align xyz run summon marker ~0.5 ~ ~0.5 {Tags:["unmarked_rythm_arrows", "sequence_$(sequence)"],data:{name:"rythm_arrows", sequence:$(sequence)}}
+$execute align xyz as @n[type=marker,tag=unmarked_rythm_arrows] run function rythm:arrows/summon_selected {direction:$(direction)}

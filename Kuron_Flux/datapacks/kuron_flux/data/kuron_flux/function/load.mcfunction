@@ -1,0 +1,1 @@
+execute at Ctarron run playsound entity.experience_orb.pickup master Ctarron ~ ~ ~

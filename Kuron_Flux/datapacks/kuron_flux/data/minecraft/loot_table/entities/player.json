@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "helmet": {}
+                },
+                "minecraft:item_model": "minecraft:helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound":"intentionally_empty",
+                  "damage_on_hurt": false
+                },
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:enchantments": {
+                  "minecraft:binding_curse": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": true
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_item",
+              "item": "minecraft:wayfinder_armor_trim_smithing_template"
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ],
+  "functions": []
+}

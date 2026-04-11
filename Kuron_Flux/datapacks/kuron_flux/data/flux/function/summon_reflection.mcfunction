@@ -1,0 +1,2 @@
+execute as @e[type=mannequin,tag=reflection] run function flux:kill_silently
+execute as @a at @s summon mannequin run function flux:summon_reflection_ with entity @p[distance=..0.01] equipment.head.components."minecraft:profile"

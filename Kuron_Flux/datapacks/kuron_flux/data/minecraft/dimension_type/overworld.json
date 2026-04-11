@@ -1,0 +1,18 @@
+{
+  "has_ender_dragon_fight": false,
+  "ambient_light": 0.1,
+  "coordinate_scale": 1,
+  "has_ceiling": false,
+  "has_skylight": true,
+  "skybox": "none",
+  "cardinal_light": "nether",
+  "height": 4064,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 4064,
+  "min_y": -2032,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:constant",
+    "value": 0
+  }
+}

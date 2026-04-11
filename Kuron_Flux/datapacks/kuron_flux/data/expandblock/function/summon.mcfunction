@@ -1,0 +1,3 @@
+
+#execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["expandblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:ice",count:1},components:{item_model:"kuron_flux:expandblock"},Passengers:[{id:"minecraft:interaction",width:0.9f,height:0.9f,Tags:["expandblock"]}]}
+execute align xyz run summon interaction ~0.5 ~0.05 ~0.5 {width:0.9f,height:0.9f,Tags:["expandblock"],Passengers:[{id:"minecraft:item_display",Tags:["expandblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.45f,0f],scale:[0.9f,0.9f,0.9f]},item_display:"firstperson_lefthand",item:{id:"minecraft:ice",count:1,components:{item_model:"kuron_flux:expandblock"}}}]}

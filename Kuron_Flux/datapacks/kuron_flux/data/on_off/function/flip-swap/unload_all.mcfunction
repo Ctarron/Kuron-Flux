@@ -1,0 +1,1 @@
+execute as @e[tag=dynamic,tag=flip_swap] run kill @s

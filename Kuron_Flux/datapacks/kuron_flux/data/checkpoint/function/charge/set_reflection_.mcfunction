@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) positioned ~ ~3 ~ run function checkpoint:charge/set with entity @s data

@@ -1,0 +1,1 @@
+$execute at @s run particle trail{color:[1.000,0.882,0.122],target:$(Pos),duration:10} ~ ~1 ~ 0.1 0.3 0.1 1 200 normal

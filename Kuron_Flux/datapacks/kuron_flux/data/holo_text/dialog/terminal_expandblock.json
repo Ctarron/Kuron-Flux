@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.terminal.expandblock.1",
+      "with": [
+        {
+          "translate": "dialog.terminal.expandblock",
+          "color": "green"
+        }
+      ]
+    }
+  },
+  "inputs": [],
+  "title": ""
+}

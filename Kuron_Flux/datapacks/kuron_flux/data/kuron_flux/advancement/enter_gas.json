@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "enter_gas": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": [
+                  "adventure"
+                ]
+              },
+              "location": {
+                "biomes": "#kuron_flux:gas_biomes"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "player:oxygen/enter_biome"
+  },
+  "sends_telemetry_event": false
+}

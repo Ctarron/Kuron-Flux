@@ -1,0 +1,1 @@
+function player:armor/mix {red:254,green:216,blue:61}

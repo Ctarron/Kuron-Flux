@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.hub.deaths",
+      "with": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nUt pharetra, elit in sodales accumsan, odio ligula semper lorem, sed condimentum augue orci id velit.\n\nPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Kuron",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Aenean suscipit neque vel lectus porttitor tincidunt.\n\nVestibulum tristique egestas erat, ac commodo sapien mollis placerat.\n\nIn at massa eget tellus sodales faucibus id vel urna.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nNullam mattis ac nisi sed tincidunt.\n\nMaecenas in cursus dui.\n\nDuis vel interdum felis, sollicitudin accumsan tellus.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "The next one",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nPellentesque pellentesque nisl arcu, a auctor neque mattis eu.\n\nNullam commodo mollis blandit.\n\nInteger facilisis a felis et aliquam.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "beacon",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "kurons",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nDuis sodales imperdiet congue.\n\nNam nunc ipsum, accumsan sed lacinia quis, facilisis non nulla.\n\nQuisque nec cursus tortor.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

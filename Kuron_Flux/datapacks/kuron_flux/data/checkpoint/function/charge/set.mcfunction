@@ -1,0 +1,2 @@
+# Update the checkpoint core model based on the charge level
+$execute positioned ~ ~ ~ as @n[type=item_display,tag=checkpoint,distance=..0.01] run data modify entity @s item.components."minecraft:custom_model_data" set value {"strings": ["$(charge)","$(variant)"]}

@@ -1,0 +1,1 @@
+execute positioned -105 256 -418 as @n[type=marker,tag=vault_door,distance=..0.01] run function vault_doors:open_selected

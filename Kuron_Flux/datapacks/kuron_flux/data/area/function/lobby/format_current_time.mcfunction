@@ -1,0 +1,1 @@
+$data modify storage kuron_flux:arguments time.current set value [{"color":green, bold:true,"text":"",},$(h),$(m),$(s),{"color":green, bold:false,"text":".",extra:$(ms)}]

@@ -1,0 +1,12 @@
+{
+  "type": "kuron_flux:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "scale": 0,
+      "biomes": "kuron_flux:deep_space"
+    },
+    "settings": "minecraft:end"
+  }
+}

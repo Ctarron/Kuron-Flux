@@ -1,0 +1,2 @@
+execute at @n[type=mannequin] run summon item ~ ~ ~ {NoGravity:1b,Age:4800,PickupDelay:32767,Tags:["beheaded_helmet"],Item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{"properties":[{"name":"textures","value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdjZmYxOWUxMmM2OTlkZDM3ZThmN2JkZDcwODQ1ZWZhNjRhNDE2NGRmZmJhMDdlOTE2NDYzMTQ4NGE3NmI4ZCJ9fX0="}]},"minecraft:item_model":"minecraft:helmet"}}}
+kill @n[type=mannequin]

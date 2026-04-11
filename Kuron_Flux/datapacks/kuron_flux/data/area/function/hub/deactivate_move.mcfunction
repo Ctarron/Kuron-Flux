@@ -1,0 +1,1 @@
+setblock -110 -1988 -590 minecraft:chorus_flower[age=2] strict

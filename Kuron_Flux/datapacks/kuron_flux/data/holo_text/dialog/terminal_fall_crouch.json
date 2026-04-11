@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "dialog.terminal.crouch.1"
+      },
+      {
+        "translate": "dialog.terminal.crouch.2",
+        "underlined": true
+      },
+      {
+        "translate": "dialog.terminal.crouch.3"
+      },
+      {
+        "translate": "dialog.terminal.crouch.4",
+        "underlined": true
+      },
+      {
+        "sprite": "minecraft:block/copper_grate"
+      },
+      {
+        "sprite": "minecraft:block/exposed_copper_grate"
+      },
+      {
+        "sprite": "minecraft:block/weathered_copper_grate"
+      },
+      {
+        "sprite": "minecraft:block/oxidized_copper_grate"
+      }
+    ]
+  },
+  "inputs": [],
+  "title": ""
+}

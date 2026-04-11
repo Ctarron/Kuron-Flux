@@ -1,0 +1,148 @@
+{
+  "criteria": {
+    "enter_chorus_plant_up": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "true",
+          "west": "false"
+        }
+      }
+    },
+    "enter_chorus_plant_down": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "true",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      }
+    },
+    "enter_chorus_plant_north": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "false",
+          "north": "true",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      }
+    },
+    "enter_chorus_plant_south": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "true",
+          "up": "false",
+          "west": "false"
+        }
+      }
+    },
+    "enter_chorus_plant_east": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "true",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      }
+    },
+    "enter_chorus_plant_west": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "true"
+        }
+      }
+    },
+    "enter_chorus_plant_none": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:chorus_plant",
+        "state": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      }
+    },
+    "in_water": {
+      "conditions": {
+        "block": "minecraft:water"
+      },
+      "trigger": "minecraft:enter_block"
+    },
+    "in_lava": {
+      "conditions": {
+        "block": "minecraft:lava"
+      },
+      "trigger": "minecraft:enter_block"
+    },
+    "in_halved": {
+      "conditions": {
+        "block": "minecraft:dirt_path"
+      },
+      "trigger": "minecraft:enter_block"
+    },
+    "in_halved_down": {
+      "conditions": {
+        "block": "minecraft:end_stone_brick_slab",
+        "state": {
+          "type": "top"
+        }
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "requirements": [
+    [
+      "enter_chorus_plant_down",
+      "enter_chorus_plant_east",
+      "enter_chorus_plant_none",
+      "enter_chorus_plant_north",
+      "enter_chorus_plant_south",
+      "enter_chorus_plant_up",
+      "enter_chorus_plant_west",
+      "in_water",
+      "in_lava",
+      "in_halved",
+      "in_halved_down"
+    ]
+  ],
+  "rewards": {
+    "function": "player:enter_damaging_block"
+  },
+  "sends_telemetry_event": false
+}

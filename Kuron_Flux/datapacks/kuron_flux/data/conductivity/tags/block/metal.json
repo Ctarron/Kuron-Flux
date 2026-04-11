@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#minecraft:impermeable",
+    "minecraft:polished_deepslate",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:polished_deepslate_stairs",
+    "#minecraft:copper",
+    "minecraft:scaffolding",
+    "minecraft:smooth_basalt",
+    "minecraft:slime_block",
+    "minecraft:smithing_table",
+    "minecraft:frosted_ice"
+  ],
+  "replace": true
+}

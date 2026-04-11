@@ -1,0 +1,1 @@
+execute if score @s animation matches 5 run function on_off:flip-swap/outer

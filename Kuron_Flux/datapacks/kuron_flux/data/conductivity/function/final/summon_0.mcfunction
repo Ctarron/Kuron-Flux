@@ -1,0 +1,2 @@
+$execute align xyz run summon item_display ~0.5 ~ ~0.5 {Tags:["dynamic","battery","$(mode)"],view_range: 2.0f,item_display:"firstperson_righthand",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.5f,0f],scale:[1f,1f,1f]},data:{function:"$(function)"},item:{id:"minecraft:ice",count:1,components:{"minecraft:item_model":"kuron_flux:battery","minecraft:custom_model_data":{strings:["$(mode)"]}}}}
+execute align xyz positioned ~0.5 ~ ~0.5 as @n[type=item_display,tag=battery,distance=..0.01] run function conductivity:light

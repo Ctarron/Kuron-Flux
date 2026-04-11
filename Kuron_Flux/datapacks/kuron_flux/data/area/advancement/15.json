@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "ice",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "15"
+          ]
+        },
+        "minecraft:item_model": "kuron_flux:core_gui"
+      }
+    },
+    "title": {
+      "translate": "advancements.area.15.title"
+    },
+    "description": {
+      "translate": "advancements.area.15.advancement.description"
+    },
+    "show_toast": true,
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "area:14",
+  "criteria": {
+    "m": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": "ice",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "15"
+              ]
+            },
+            "minecraft:item_model": "kuron_flux:core"
+          }
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "area:15/advancement"
+  },
+  "sends_telemetry_event": false
+}

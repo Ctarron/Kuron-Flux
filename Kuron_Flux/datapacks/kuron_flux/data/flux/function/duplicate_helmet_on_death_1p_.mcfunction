@@ -1,0 +1,2 @@
+$execute positioned $(x) $(y) $(z) run summon item ~ ~ ~ {Tags:["reflection_helmet", "beheaded_helmet"],Item:{id:"minecraft:kelp",count:1},NoGravity:1b,Age:4800,PickupDelay:32767}
+$execute positioned $(x) $(y) $(z) run data modify entity @n[tag=reflection_helmet,distance=..0.01] Item set from entity @s Item

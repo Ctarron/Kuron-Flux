@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "rewards": {
+    "function": "conductivity:electrocute"
+  }
+}

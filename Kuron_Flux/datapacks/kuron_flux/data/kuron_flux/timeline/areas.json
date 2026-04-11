@@ -1,0 +1,250 @@
+{
+  "clock": "kuron_flux:areas",
+  "time_markers": {
+    "hub": 160,
+    "lobby": 170
+  },
+  "tracks": {
+    "minecraft:audio/background_music": {
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.desert",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 10,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.dripstone_caves",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 20,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.flower_forest",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 30,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.forest",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 40,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.frozen_peaks",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 50,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.grove",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 60,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.jagged_peaks",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 65,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.under_water",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 70,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.jungle",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 80,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.lush_caves",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 90,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.meadow",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 100,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.old_growth_taiga",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 110,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.snowy_slopes",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 120,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.sparse_jungle",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 130,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.stony_peaks",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 140,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.overworld.swamp",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 150,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.end",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 160,
+          "value": {
+            "default": {
+              "sound": "minecraft:music.dragon",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        },
+        {
+          "ticks": 200,
+          "value": {
+            "default": {
+              "sound": "minecraft:intentionally_empty",
+              "min_delay": 0,
+              "max_delay": 0,
+              "replace_current_music": true
+            }
+          }
+        }
+      ]
+    },
+    "minecraft:audio/music_volume": {
+      "keyframes": [
+        {
+          "ticks": 30,
+          "value": 0.5
+        },
+        {
+          "ticks": 31,
+          "value": 0.2
+        },
+        {
+          "ticks": 40,
+          "value": 0.5
+        },
+        {
+          "ticks": 150,
+          "value": 0.5
+        },
+        {
+          "ticks": 153,
+          "value": 0.2
+        },
+        {
+          "ticks": 160,
+          "value": 0.5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @n[type=interaction,tag=expandblock] run function expandblock:delete_selected

@@ -1,0 +1,4 @@
+$execute align xyz run summon item_display ~0.5 ~ ~0.5 {teleport_duration:20,Tags:["vd_left_door"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.250f,-0.820f],scale:[2.438f,2.5f,2.188f]},item_display:"firstperson_lefthand",view_range: 2.0f,item:{id:"minecraft:copper_door",count:1,components:{item_model:"kuron_flux:vault_door","minecraft:custom_model_data":{"strings": ["$(variant)"]}}}}
+$execute align xyz run summon item_display ~0.5 ~ ~0.5 {teleport_duration:20,Tags:["vd_right_door"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.250f,-0.820f],scale:[2.438f,2.5f,2.188f]},item_display:"firstperson_righthand",view_range: 2.0f,item:{id:"minecraft:copper_door",count:1,components:{item_model:"kuron_flux:vault_door","minecraft:custom_model_data":{"strings": ["$(variant)"]}}}}
+
+fill ~-1 ~ ~ ~1 ~4 ~ minecraft:end_stone_brick_wall replace minecraft:air

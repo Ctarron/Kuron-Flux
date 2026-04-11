@@ -1,0 +1,1 @@
+execute at @s run setblock ~ ~0.5 ~ minecraft:chorus_flower[age=1] strict

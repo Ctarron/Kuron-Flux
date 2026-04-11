@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "m": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "adventure"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "player:inventory/changed"
+  }
+}

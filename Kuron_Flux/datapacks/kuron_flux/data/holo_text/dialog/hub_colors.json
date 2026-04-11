@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.hub.colors",
+      "with": [
+        {
+          "sprite": "minecraft:block/light_gray_stained_glass"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

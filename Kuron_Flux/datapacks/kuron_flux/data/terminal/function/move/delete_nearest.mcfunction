@@ -1,0 +1,1 @@
+execute as @n[type=interaction,tag=terminal,tag=move] run kill @s

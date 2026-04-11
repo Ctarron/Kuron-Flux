@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.lore.14",
+      "with": [
+        {
+          "translate": "dialog.lore.impact",
+          "color": "red"
+        },
+        {
+          "translate": "dialog.lore.warning",
+          "color": "red"
+        },
+        {
+          "translate": "dialog.lore.caution",
+          "color": "red"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

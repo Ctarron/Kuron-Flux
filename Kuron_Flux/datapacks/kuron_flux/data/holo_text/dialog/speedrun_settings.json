@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "dialog.speedrun_settings",
+        "bold": true
+      },
+      "\n\n",
+      {
+        "translate": "dialog.speedrun_settings.1",
+        "bold": false
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "show",
+      "label": {
+        "translate": "dialog.speedrun_settings.2"
+      },
+      "on_true": "1",
+      "on_false": "2"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "reset",
+      "label": {
+        "translate": "dialog.speedrun_settings.3",
+        "with": [
+          {
+            "keybind": "key.quickActions"
+          }
+        ]
+      },
+      "on_true": "1",
+      "on_false": "2"
+    }
+  ],
+  "title": "",
+  "can_close_with_escape": false,
+  "action": {
+    "label": {
+      "translate": "gui.ok"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "trigger trigger_holo_text set $(show)$(reset)01"
+    }
+  }
+}

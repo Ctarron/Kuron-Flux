@@ -1,0 +1,49 @@
+{
+  "description": "",
+  "supported_items": [
+    "minecraft:saddle"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "saddle"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "flux:reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                1,
+                0
+              ],
+              "coordinate_scale": [
+                0,
+                -0.25,
+                0
+              ],
+              "magnitude": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

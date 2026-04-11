@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.terminal.key_blocks",
+      "with": [
+        {
+          "translate": "dialog.lore.caution",
+          "color": "red"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

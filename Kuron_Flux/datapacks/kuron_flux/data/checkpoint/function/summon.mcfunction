@@ -1,0 +1,2 @@
+#/function checkpoint:summon {variant:1,direction:south,charged_function:say_a}
+$execute align xyz run summon marker ~0.5 ~ ~0.5 {Tags:["checkpoint","direction.$(direction)"],data:{name:"checkpoint", variant: $(variant), direction: $(direction), charged_function: "$(charged_function)",charge: 0}}

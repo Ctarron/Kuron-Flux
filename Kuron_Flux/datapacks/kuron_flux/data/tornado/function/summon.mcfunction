@@ -1,0 +1,1 @@
+summon breeze ~ ~ ~ {NoGravity:1b,PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,Tags:["tornado"],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:1.5}]}

@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=bubble_platform] at @s positioned ~ ~2 ~ run function bubbles:burst

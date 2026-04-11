@@ -1,0 +1,27 @@
+{
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.area.leader.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "kuron_flux:tp_to_leader"
+      },
+      "count": 1,
+      "id": "minecraft:shears"
+    },
+    "show_toast": true,
+    "hidden": true,
+    "title": {
+      "translate": "advancements.area.leader.title"
+    }
+  },
+  "parent": "area:root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

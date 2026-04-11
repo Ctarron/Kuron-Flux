@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=checkpoint] at @s run function checkpoint:load/selected_arguments with entity @s data

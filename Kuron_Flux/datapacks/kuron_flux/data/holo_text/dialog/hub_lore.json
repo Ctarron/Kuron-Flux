@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.hub.lore",
+      "with": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Morbi placerat, libero eget condimentum iaculis, ipsum urna consectetur tortor, malesuada vehicula turpis nulla id est.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Duis sit amet dignissim odio. Donec pulvinar condimentum ultricies.",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "Vivamus consequat libero et ligula maximus, eu scelerisque sem efficitur.\nPhasellus scelerisque, nulla in vehicula blandit, lorem elit volutpat massa, et suscipit mi risus eget orci.",
+          "obfuscated": true,
+          "color": "gray"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

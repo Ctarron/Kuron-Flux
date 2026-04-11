@@ -1,0 +1,1 @@
+execute positioned -345 251 -5 run kill @e[tag=holo_text,distance=..1]

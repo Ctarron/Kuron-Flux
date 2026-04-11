@@ -1,0 +1,3 @@
+execute if score .n_players current matches 1 run return run function flux:duplicate_helmet_on_death_1p
+$execute at @e[type=mannequin,tag=$(name),limit=1] run summon item ~ ~ ~ {Tags:["reflection_helmet", "beheaded_helmet"],Item:{id:"minecraft:kelp",count:1},NoGravity:1b,Age:4800,PickupDelay:32767}
+$execute at @e[type=mannequin,tag=$(name),limit=1] run data modify entity @n[tag=reflection_helmet,distance=..0.01] Item set from entity @s Item

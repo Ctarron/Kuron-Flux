@@ -1,0 +1,1 @@
+$execute at @n[tag=rythm_arrows,tag=outline,tag=arrow_$(key),distance=..2] run summon minecraft:item_display $(coords) {teleport_duration:1,billboard:"center",Tags:["rythm_arrows", "arrow_$(key)","target"],item: {components: {"minecraft:item_model": "kuron_flux:rythm_target_$(key)"}, count: 1, id: "minecraft:ice"}}

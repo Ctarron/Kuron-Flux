@@ -1,0 +1,3 @@
+item replace entity @s weapon.offhand with netherite_upgrade_smithing_template[use_cooldown={seconds:1},consumable={consume_seconds:0,animation:"trident",sound:"block.stone_button.click_on",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"block.conduit.deactivate"}]},item_model="kuron_flux:flux", tooltip_display={ "hide_tooltip": true }] 1
+tag @s add flux
+advancement revoke @s only flux:landed

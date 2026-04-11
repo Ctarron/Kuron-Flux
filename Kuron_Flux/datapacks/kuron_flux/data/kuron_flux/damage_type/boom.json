@@ -1,0 +1,7 @@
+{
+  "exhaustion": 0,
+  "message_id": "boom",
+  "scaling": "never",
+  "effects": "freezing",
+  "death_message_type": "default"
+}

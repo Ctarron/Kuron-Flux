@@ -1,0 +1,1 @@
+execute positioned -105 256 -380 as @n[type=marker,tag=checkpoint,distance=..0.01] run function checkpoint:doors/open_in

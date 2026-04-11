@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:confirmation",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": [
+            {
+                "translate": "dialog.reset_run"
+            }
+        ]
+    },
+    "inputs": [],
+    "title": "",
+    "pause": false,
+    "yes": {
+        "label": {
+            "translate": "gui.yes"
+        },
+        "action": {
+            "type": "minecraft:run_command",
+            "command": "trigger trigger_reset set 2"
+        }
+    },
+    "no": {
+        "label": {
+            "translate": "gui.no"
+        },
+        "action": {
+            "type": "minecraft:run_command",
+            "command": "trigger trigger_reset set 1"
+        }
+    }
+}

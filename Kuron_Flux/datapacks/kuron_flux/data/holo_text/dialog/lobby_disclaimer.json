@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.lobby_disclaimer"
+    }
+  },
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "rules",
+      "label": {
+        "translate": "dialog.lobby_disclaimer.rules"
+      },
+      "on_true": "1",
+      "on_false": "2"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "settings",
+      "label": {
+        "translate": "dialog.lobby_disclaimer.settings"
+      },
+      "on_true": "1",
+      "on_false": "2"
+    }
+  ],
+  "title": "",
+  "can_close_with_escape": false,
+  "action": {
+    "label": {
+      "translate": "book.signButton"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "trigger trigger_holo_text set $(rules)$(settings)00"
+    }
+  }
+}

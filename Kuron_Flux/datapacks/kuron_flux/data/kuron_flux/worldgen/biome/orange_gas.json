@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:block_marker",
+            "block_state": {
+              "Name": "minecraft:note_block",
+              "Properties": {
+                "instrument": "zombie",
+                "note": "1"
+              }
+            }
+          },
+          "probability": 0.01
+        }
+      ]
+    }
+  },
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": 6779282
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

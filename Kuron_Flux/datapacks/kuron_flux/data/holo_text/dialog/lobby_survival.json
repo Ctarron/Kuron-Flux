@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.lobby_survival.1"
+    }
+  },
+  "inputs": [],
+  "title": ""
+}

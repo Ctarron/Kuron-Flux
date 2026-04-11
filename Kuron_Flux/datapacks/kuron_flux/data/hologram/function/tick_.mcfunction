@@ -1,0 +1,2 @@
+execute at @s[tag=!active] as @p if entity @s[distance=..3] as @n[type=item_display,tag=hologram,distance=..0.01] run return run function hologram:activate
+execute at @s[tag=active] as @p if entity @s[distance=3..] as @n[type=item_display,tag=hologram,distance=..0.01] run return run function hologram:deactivate

@@ -1,0 +1,28 @@
+{
+  "attributes": {
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:visual/sky_color": 0,
+    "minecraft:visual/fog_color": 0,
+    "minecraft:visual/water_fog_color": 0,
+    "minecraft:visual/ambient_light_color": "#2B2B2B",
+    "minecraft:visual/block_light_tint": "#ffebc2"
+  },
+  "timelines": "kuron_flux:areas",
+  "has_ender_dragon_fight": false,
+  "ambient_light": 0.5,
+  "coordinate_scale": 1,
+  "cardinal_light": "nether",
+  "has_ceiling": false,
+  "has_skylight": false,
+  "height": 4064,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 4064,
+  "min_y": -2032,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:constant",
+    "value": 0
+  }
+}

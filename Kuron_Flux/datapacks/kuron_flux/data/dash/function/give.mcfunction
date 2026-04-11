@@ -1,0 +1,3 @@
+item replace entity @s weapon.offhand with flow_armor_trim_smithing_template[consumable={consume_seconds:0,animation:"block",sound:"block.stone_button.click_on",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.wind_charge.wind_burst"}]},item_model="kuron_flux:dash", tooltip_display={ "hide_tooltip": true }] 1
+tag @s add dash
+advancement revoke @s only dash:landed

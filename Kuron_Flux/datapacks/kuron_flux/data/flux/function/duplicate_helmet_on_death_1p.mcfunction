@@ -1,0 +1,2 @@
+function flux:get_destination
+function flux:duplicate_helmet_on_death_1p_ with storage kuron_flux:arguments aux.coords

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.hub.progress",
+      "with": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nIn auctor aliquet ante, nec faucibus ex imperdiet nec.\n\nSed ac suscipit neque. Duis neque diam, fermentum sed mauris eget, semper volutpat sapien.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nFusce vitae orci non felis eleifend pulvinar.\n\nQuisque vel bibendum turpis, ac condimentum erat.\n\nPraesent ultrices sagittis metus, eu rhoncus nulla ornare eu.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nAliquam imperdiet tincidunt lacus eget ullamcorper.\n\nSed sed faucibus libero, id condimentum felis.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        },
+        {
+          "text": "\n\nSed faucibus rhoncus turpis sit amet dignissim.\n\nVivamus nec sollicitudin orci, eu ultricies quam.\n\n",
+          "obfuscated": true,
+          "color": "gray"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

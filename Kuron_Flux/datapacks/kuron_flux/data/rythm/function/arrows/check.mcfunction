@@ -1,0 +1,4 @@
+execute at @n[tag=rythm_arrows,tag=outline,tag=arrow_a,distance=..2] as @a[tag=!pressed_a,predicate=kuron_flux:pressing_a] run function rythm:arrows/check/a
+execute at @n[tag=rythm_arrows,tag=outline,tag=arrow_s,distance=..2] as @a[tag=!pressed_s,predicate=kuron_flux:pressing_s] run function rythm:arrows/check/s
+execute at @n[tag=rythm_arrows,tag=outline,tag=arrow_w,distance=..2] as @a[tag=!pressed_w,predicate=kuron_flux:pressing_w] run function rythm:arrows/check/w
+execute at @n[tag=rythm_arrows,tag=outline,tag=arrow_d,distance=..2] as @a[tag=!pressed_d,predicate=kuron_flux:pressing_d] run function rythm:arrows/check/d

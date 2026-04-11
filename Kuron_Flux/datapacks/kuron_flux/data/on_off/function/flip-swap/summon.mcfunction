@@ -1,0 +1,2 @@
+execute align xyz run summon marker ~ ~ ~ {Tags:["unmarked_flip_swap"],data:{name:"Flip swap"}}
+$execute align xyz as @n[type=marker,tag=unmarked_flip_swap] run function on_off:flip-swap/summon_selected {direction:$(direction)}

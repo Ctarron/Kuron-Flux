@@ -1,0 +1,2 @@
+#/function terminal:move/summon {from_x:-0.5,from_y:2.5,from_z:-13.5,to_x:-0.5,to_y:2,to_z:-11.5}
+$execute positioned $(from_x) $(from_y) $(from_z) run summon interaction ~ ~-.5 ~ {Tags:["terminal","move"],response:1b,width:1.1f,height:1.1f,data:{from_x:$(from_x), from_y:$(from_y), from_z:$(from_z), to_x:$(to_x), to_y:$(to_y), to_z:$(to_z)}}

@@ -1,0 +1,104 @@
+{
+  "description": "",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:frosted_ice",
+                "state": {
+                  "age": "2"
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                0.2,
+                0.2
+              ],
+              "coordinate_scale": [
+                1,
+                0,
+                1
+              ],
+              "magnitude": 1
+            },
+            {
+              "type":"play_sound",
+              "sound": "minecraft:block.beacon.activate",
+              "pitch": 2,
+              "volume": 3
+            }
+          ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:location_check",
+          "offsetY": 2,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:frosted_ice",
+              "state": {"age":"2"}
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [
+                0,
+                0.2,
+                0.2
+              ],
+              "coordinate_scale": [
+                1,
+                0,
+                1
+              ],
+              "magnitude": 1
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "dash:panel/ceiling"
+            },
+            {
+              "type":"play_sound",
+              "sound": "minecraft:block.beacon.activate",
+              "pitch": 2,
+              "volume": 3
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

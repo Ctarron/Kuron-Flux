@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=checkpoint,tag=loaded] at @s run function checkpoint:load/unload_selected

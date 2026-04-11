@@ -1,0 +1,3 @@
+execute if score @s animation matches 30 at @s positioned ~ ~2.5 ~ as @e[type=item_display,tag=hub_door_closing,distance=..0.01] run function hub_doors:door_11/close/selected_30
+execute if score @s animation matches 90 at @s positioned ~ ~2.5 ~ as @e[type=item_display,tag=hub_door_closing,distance=..0.01] run function hub_doors:door_11/close/selected_90
+execute if score @s animation matches 90 run scoreboard players reset @s animation

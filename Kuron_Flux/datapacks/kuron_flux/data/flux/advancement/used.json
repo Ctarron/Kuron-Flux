@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_upgrade_smithing_template"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "flux:used"
+  },
+  "sends_telemetry_event": false
+}

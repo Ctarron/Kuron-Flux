@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=flip_swap] at @s run function on_off:flip-swap/load_rotate

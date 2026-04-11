@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=vault_door] at @s run function vault_doors:toggle_selected

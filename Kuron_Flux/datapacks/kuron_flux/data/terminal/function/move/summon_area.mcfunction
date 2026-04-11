@@ -1,0 +1,2 @@
+#/function terminal:move/summon_area {from_x:-0.5,from_y:2.5,from_z:-13.5,area:0}
+$execute positioned $(from_x) $(from_y) $(from_z) run summon interaction ~ ~-.05 ~ {Tags:["terminal","move","area"],response:1b,width:1.1f,height:1.1f,data:{from_x:$(from_x), from_y:$(from_y), from_z:$(from_z), area:$(area)}}

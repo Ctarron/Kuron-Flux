@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:flow_armor_trim_smithing_template"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dash:do"
+  },
+  "sends_telemetry_event": false
+}

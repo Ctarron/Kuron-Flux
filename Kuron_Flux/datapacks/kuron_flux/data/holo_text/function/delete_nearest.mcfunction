@@ -1,0 +1,1 @@
+execute as @n[type=item_display,tag=holo_text] run function holo_text:delete_selected

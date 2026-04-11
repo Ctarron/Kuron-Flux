@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": false,
+    "background": "minecraft:block/quartz_block_bottom",
+    "description": {
+      "translate": "advancements.area.root.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "kuron_flux:logo"
+      },
+      "count": 1,
+      "id": "minecraft:shears"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.area.root.title"
+    }
+  },
+  "rewards": {
+    "function": "player:on_first_join"
+  },
+  "sends_telemetry_event": false
+}

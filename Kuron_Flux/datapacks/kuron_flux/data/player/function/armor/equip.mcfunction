@@ -1,0 +1,5 @@
+loot replace entity @s armor.head kill @s
+item replace entity @s armor.chest with wayfinder_armor_trim_smithing_template[equippable={slot:"chest",asset_id:"iron",equip_sound:"intentionally_empty",damage_on_hurt:false},item_model="minecraft:iron_chestplate",attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantment_glint_override=false,enchantments={"minecraft:binding_curse":1}, tooltip_display={ "hide_tooltip": true }] 1
+item replace entity @s armor.feet with wayfinder_armor_trim_smithing_template[equippable={slot:"feet",asset_id:"iron",equip_sound:"intentionally_empty",damage_on_hurt:false},item_model="minecraft:iron_boots",attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantment_glint_override=false,enchantments={"minecraft:binding_curse":1, "kuron_flux:space_movement":1, "kuron_flux:damage_control":1,"dash:panel":1},tooltip_display={ "hide_tooltip": true }] 1
+function player:armor/set_from_rgb
+tag @s add colorless

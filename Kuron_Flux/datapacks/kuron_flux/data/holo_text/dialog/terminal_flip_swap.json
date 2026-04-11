@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.terminal.flipswap",
+      "with": [
+        {
+          "translate": "dialog.lore.caution",
+          "color": "red"
+        },
+        {
+          "text": "[MC-48747]",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://bugs.mojang.com/browse/MC/issues/MC-48747"
+          }
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

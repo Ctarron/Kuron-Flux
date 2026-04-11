@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "translate": "dialog.lore.11",
+      "with": [
+        {
+          "translate": "dialog.lore.warning",
+          "color": "red"
+        },
+        {
+          "text": "Gaia",
+          "color": "#776344"
+        }
+      ],
+      "color": "white"
+    },
+    "width": 400
+  },
+  "inputs": [],
+  "title": ""
+}

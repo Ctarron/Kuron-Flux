@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=rythm_arrows] at @s run function rythm:arrows/load_rotate

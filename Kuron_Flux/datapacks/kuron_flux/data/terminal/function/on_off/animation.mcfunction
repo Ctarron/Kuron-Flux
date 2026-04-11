@@ -1,0 +1,1 @@
+execute if score @s animation matches 5 at @s run scoreboard players reset @s animation
