@@ -16,3 +16,4 @@ Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 - 🇺🇸 English
 - 🇪🇸 Spanish
 - 🇫🇷 French (by Leroidesafk)
+- 🇰🇷 Korean (by TheOnlyMann)
