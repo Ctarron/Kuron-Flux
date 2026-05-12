@@ -10,6 +10,8 @@ Also on [Planet Minecraft](https://www.planetminecraft.com/project/kuron-flux/)
 
 Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 
+Also on [Crafters Colony](https://minecraft-mcworld.com/224150/)
+
 
 ## Available Translations
 
@@ -17,3 +19,4 @@ Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 - 🇪🇸 Spanish
 - 🇫🇷 French (by Leroidesafk)
 - 🇰🇷 Korean (by TheOnlyMann)
+- 🇯🇵 Japanese (by Tainoji)
