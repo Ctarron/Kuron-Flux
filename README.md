@@ -13,6 +13,8 @@ Also on [MapVerse](https://mapverse.net/map/208/kuron-flux)
 Also on [Crafters Colony](https://minecraft-mcworld.com/224150/)
 
 
+[![Map](https://img.shields.io/github/downloads/Ctarron/Kuron-Flux/Kuron_Flux.zip?label=Map%20Downloads&color=blue&style=for-the-badge)](https://github.com/Ctarron/Kuron-Flux/releases/latest)[![ResourcePack](https://img.shields.io/github/downloads/Ctarron/Kuron-Flux/Kuron_Flux_RP.zip?label=RP%20Downloads&color=red&style=for-the-badge)](https://github.com/Ctarron/Kuron-Flux/releases/latest)
+
 ## Available Translations
 
 - 🇺🇸 English
